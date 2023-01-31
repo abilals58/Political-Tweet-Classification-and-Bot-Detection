@@ -11,6 +11,7 @@ For data:
   * I have analyzed all the tweets in the user_tweets JSON file, and created some political entity lists for detection.
 
 For features:
+
   I have created some features in order to detect if a tweet is a political tweet, or not:
   * 1) Number of political keywords: I created a huge list with many possible political keywords, and this feature calculates their count in the given tweet.
   * 2) Binarized number of political keywords: This feature specifies if the given tweet has some political keywords, or not.
