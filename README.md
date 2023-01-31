@@ -11,7 +11,7 @@ For data:
   * I have analyzed all the tweets in the user_tweets JSON file, and created some political entity lists for detection.
 
 For features:
-  #I have created some features in order to detect if a tweet is a political tweet, or not:
+  # I have created some features in order to detect if a tweet is a political tweet, or not:
   * 1) Number of political keywords: I created a huge list with many possible political keywords, and this feature calculates their count in the given tweet.
   * 2) Binarized number of political keywords: This feature specifies if the given tweet has some political keywords, or not.
   * 3) Number of political mentions: I created a huge list with many possible political users, and this feature calculates their count in the given tweet.
@@ -22,7 +22,7 @@ For features:
   * 9) Net political feature: I created a tiny list of strings which implies being a political tweet for sure.
   * 10) No political feature: I created a tiny list of strings which implies being not a political tweet for sure.
   
-  #I have created some features in order to detect if a user is a bot, or not:
+  # I have created some features in order to detect if a user is a bot, or not:
   * 1) Number of duplicate tweets: I calculated the approximate number of duplicate tweets of the user.
   * 2) Retweet ratio: This feature shows the ratio of retweets to all tweets of the user.
   * 3) Follow similarity: This feature specifies the similarity of followers and following counts.
